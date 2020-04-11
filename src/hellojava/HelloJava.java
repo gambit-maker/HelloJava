@@ -46,5 +46,8 @@ public class HelloJava {
         Integer myInt = 992;
         String myString = myInt.toString();
         System.out.println(myString.length());
+        
+        Dog d = new Dog();
+        d.sound();
     }
 }
